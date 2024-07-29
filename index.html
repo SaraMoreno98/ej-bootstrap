@@ -50,7 +50,26 @@
                 <p class="lead">Esta es una página web sencilla creada con HTML, CSS y Bootstrap.</p>
                 <hr>
                 <p>Aprende más sobre cómo crear páginas web con el botón de abajo.</p>
-                <button type="button" class="btn btn-primary btn-lg">Aprende más</button>
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Aprende más</button>
+
+                <!-- MODAL / VENTANILLA EMERGENTE -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Más info</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vitae dolorum tempore, nulla animi reiciendis qui corporis eaque voluptas distinctio rerum similique. Velit inventore praesentium eos doloremque ipsa laborum odio.
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- FIN DEL MODAL / VENTANILLA EMERGENTE -->
             </section>
             <div class="container">
                 <div class="row">
