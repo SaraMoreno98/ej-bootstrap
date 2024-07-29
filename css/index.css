@@ -1,7 +1,17 @@
-/* VARIABLES PARA LOS COLORES */
-
-/*
-:root{
-    --white: #ffffff
+*{
+    box-sizing: border-box;
 }
-*/
+
+main{
+    margin-top: 2rem;
+}
+
+.bienvenido{
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    background-color: #F8F9FA;
+    border-radius: .3rem;
+}
