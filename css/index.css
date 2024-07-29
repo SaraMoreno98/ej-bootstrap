@@ -38,6 +38,15 @@ footer a:hover{
     border: 0;
 }
 
+.enlaces-pags{
+    text-decoration: none;
+    color: #1a1b26;
+}
+
+.enlaces-pags:hover{
+    color: orange;
+}
+
 .btn:hover:hover{
     background-color: orange;
     border: 0;
